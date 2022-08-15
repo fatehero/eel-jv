@@ -16,13 +16,21 @@
           background-color: #2196F3;
           padding: 10px;
         }
-        .number {
+        .number,#ANS,#reset {
           background-color: rgba(255, 255, 255, 0.8);
           border: 1px solid rgba(0, 0, 0, 0.8);
           padding: 20px;
           font-size: 30px;
           text-align: center;
         }
+        #formula{
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          padding: 5px;
+          font-size: 30px;
+          text-align: center;
+        }
+
         </style>
         </head>
         <body>
@@ -39,11 +47,13 @@
           <div class="number">7</div>
           <div class="number">8</div>
           <div class="number">9</div>
+          <div id="reset">reset</div>
           <div class="number">0</div>
+          <div id="ANS">ANS</div>
         
           
         </div>
-        <input type="text"> 
+        <input id="formula" type="text"> 
         
         </body>
         </html>
